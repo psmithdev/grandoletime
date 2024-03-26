@@ -21,9 +21,7 @@
 title: Grand Ole Time
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A grandson taking care of his grandmother. From one generation to the next.
 baseurl: # the subpath of your site, e.g. /blog
 domain: grandoletime.com
 url: https://grandoletime.com # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,7 +29,7 @@ twitter_username: jekyllrb
 github_username: jekyll
 
 # Build settings
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: huangyz0918/moving
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
