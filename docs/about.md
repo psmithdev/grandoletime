@@ -2,9 +2,8 @@
 layout: about
 ---
 
-These are controlled by `about.md` under the root directory. If you want a more diverse self-introduction, you can insert the markdown content you want here.
+This is a personal blog with stories about my life taking care of my grandmother with dementia. I hope to share my experiences and thoughts with others who are going through similar situations. I also hope to raise awareness about Alzheimer's / dementia and the challenges that come with it.
 
-### What's New
+### -----------------------------------------------------------------------------
 
-- One paper got accepted in xxx 2019.
-- I'm going to join xxx as a xxx 2019 Fall.
+Memory loss is a difficult thing to deal with, just remember that you are not alone. I hope that my blog can provide some comfort and support to those who need it.
