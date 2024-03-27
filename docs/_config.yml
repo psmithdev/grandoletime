@@ -2,8 +2,9 @@ title: Grand Ole Time # The title of the blog
 author: Parker Smith # Your name
 email: https://psmith.dev/ # your email shown in the footer
 url: https://www.grandoletime.com/ # this is your site's root address.
-description: > # this means to ignore newlines until "show_excerpts:"
-  A grandson taking care of his grandmother. From one generation to the next.
+description: A grandson taking care of his grandmother,
+
+  from one generation to the next
 favicon: "./favicon.ico" # set the favicon of the site
 show_excerpts: false # set to true to show excerpts on the homepage
 
