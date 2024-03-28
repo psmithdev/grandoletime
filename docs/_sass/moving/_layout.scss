@@ -141,6 +141,10 @@
   @include relative-font-size(2);
 }
 
+/*********************************************
+ * Home Page
+ *********************************************/
+
 .home-title {
   margin-top: -10px;
 }
@@ -166,6 +170,31 @@
   }
 
   @include relative-font-size(1);
+}
+
+/* Default styles for desktop */
+.home-image {
+  max-width: 125px; /* Adjust size as needed for desktop */
+  margin-right: 50px; /* Space between the image and text */
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  .home-image {
+    max-width: 100px; /* Smaller size on mobile */
+    margin-right: 10px; /* Less space on the right on mobile */
+  }
+
+  /* Optionally, adjust the layout for mobile */
+  .home-title {
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center-align the items */
+  }
+
+  .home-image {
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 20px; /* Add space below the image */
+  }
 }
 
 .post-list {
