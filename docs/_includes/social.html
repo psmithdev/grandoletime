@@ -34,7 +34,8 @@
     <a
       class="black-link"
       href="https://github.com/{{ social.github | cgi_escape | escape }}"
-    > [Github]</a
+    >
+      [Github]</a
     >
   </li>
   {%- endif -%} {%- if social.instagram -%}
@@ -84,7 +85,8 @@
     <a
       class="black-link"
       href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}"
-    > [Twitter]</a
+    >
+      [Twitter]</a
     >
   </li>
   {%- endif -%} {%- if social.youtube -%}
@@ -135,6 +137,12 @@
   {%- endif -%} {%- if social.rss -%}
   <li>
     <a class="black-link" href="{{ 'feed.xml' | relative_url }}">[RSS]</a>
+  </li>
+  {%- endif -%} {%- if social.email -%}
+  <li>
+    <a class="black-link" href="mailto:{{ social.email | cgi_escape | escape }}"
+      >[Email]</a
+    >
   </li>
   {%- endif -%}
 </ul>
