@@ -1,7 +1,8 @@
 title: Grand Ole Time # The title of the blog
 author: Parker Smith # Your name
-email: higrandma@psmith.dev # your email shown in the footer
+email: grandma@psmith.dev # your email shown in the footer
 url: https://www.grandoletime.com/ # this is your site's root address.
+personal_url: https://www.parkersmith.dev/
 description: From his hands to hers,
 
   from one generation to the next
