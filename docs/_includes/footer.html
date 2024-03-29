@@ -15,13 +15,11 @@
               <li>
               <a class="u-email black-link" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
               {%- endif -%}
-              {%- if site.url -%}
-          <li>
-            <a class="black-link" href="{{ site.url }}">
-              Visit My Website
-            </a>
-          </li>
-          {%- endif -%}
+              {%- if site.personal_url -%}
+              <li>
+              <a class="black-link" href="{{ site.personal_url | escape }}" target="_blank">Visit My Site</a>
+              </li>
+              {%- endif -%}
           </ul>
         </div>
       </div>
